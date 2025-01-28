@@ -2,8 +2,5 @@
 
 A container of examples of flutter mobile applications for demonstration purposes only. Each page will be an example.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-
+### Cool Transition
+![Cool Onboarding](https://raw.githubusercontent.com/GiuseppeSperanza/flutter_ui_projects/refs/heads/main/assets/cool_onboarding.gif)
