@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ui_projects_example/pages/cool_onboarding.dart';
+import 'package:ui_projects_example/pages/event/event_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -30,6 +31,11 @@ class PagesList extends StatelessWidget {
             context,
             title: 'Cool Transition',
             destination: const CoolOnboarding(),
+          ),
+          _buildNavigationTile(
+            context,
+            title: 'Find Event App',
+            destination: const EventPage(),
           ),
         ],
       ),
